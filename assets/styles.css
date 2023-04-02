@@ -1,0 +1,70 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;    
+}
+.container{
+    width: 100%;
+    height:50rem;
+    /* background-color: rgba(71, 226, 231, 0.753); */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.title{
+    color:rgba(45, 87, 241, 0.82) ;
+    font-size: 3rem;
+    text-align: center;
+}
+.my-form{
+    text-align: center;
+    width: 25rem;
+    height:15rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+   background-color: rgba(45, 87, 241, 0.82);
+   box-shadow: 0.25rem 0.25rem rgba(128, 128, 128, 0.753);
+}
+.scroll-div{
+    background-color: aliceblue;
+    height: 3rem;
+    overflow-y: scroll;
+    list-style-type: none;
+    padding: 1.5rem 0.5rem;
+  
+}
+.scroll-div li{
+    font-size: 1.5rem;
+}
+    
+.player-data{
+    margin: 1rem;
+}
+.player-data label{
+    font-size: 1.5rem;
+    color: white;
+}
+.pd-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#tennis-court{
+    margin-top: 1rem;
+}
+.fancy{
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: cornflowerblue;
+    color: white;
+}
+.btn{
+    margin-top: 2.5rem;
+}
+
+
